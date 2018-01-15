@@ -1,0 +1,21 @@
+{
+  "name": "stuff-in-space",
+  "version": "0.0.0",
+  "description": "stuffInSpace",
+  "main": "app.js",
+  "author": {
+    "name": "magshimim"
+  },
+  "dependencies": {
+    "puppeteer": "^0.13.0",
+    "readline-sync": "^1.4.7",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "build": "nexe app.js"
+  },
+  "devDependencies": {
+    "nexe": "^2.0.0-rc.22",
+    "typescript": "^2.6.2"
+  }
+}
