@@ -51,7 +51,9 @@ async function runApp() {
 
         console.log(csvFile);
         if (timesChacked === 60) {
+			saveCsv();
             clearInterval(interval);
+			return;
 
         }
     }, time * 60 * 1000);
